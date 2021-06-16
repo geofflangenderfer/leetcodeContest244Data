@@ -67,7 +67,6 @@ let ObjectId = mongodb.ObjectId;
             console.log(err.stack)
         }
         console.log(i, c.user_slug)
-        await writeFile('./index.txt', JSON.stringify(i))
         await delay(1000*(1+Math.random()*10));
     }
 
