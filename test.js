@@ -52,7 +52,7 @@ async function extractAttended(contestant) {
         "x-definition-name": "userContestRanking,globalRatingRanking,userContestScore,contestUnratedContests",
         "x-operation-name": "userContest",
         "x-timezone": "America/Cancun",
-        "cookie": "csrftoken=xfA9Yh67x3qxSETGyRY2lnQ95Dnoe1YDcP3U6i3EdfG9WU5wyadbvQVPYqSAT8yv; __auc=854efddd1797bf0abe8e972f933; gr_user_id=a2c2f5cc-6251-4dd2-ba14-8aac50c8a7d1; _ga=GA1.2.757508293.1621282046; _gid=GA1.2.242860899.1623428151; __appToken__=; __asc=74f44d2d179fca05896d13f8c0d; a2873925c34ecbd2_gr_session_id=675b5fa1-a501-4b38-9ae0-5e46891fd5dc; a2873925c34ecbd2_gr_session_id_675b5fa1-a501-4b38-9ae0-5e46891fd5dc=true; Hm_lvt_fa218a3ff7179639febdb15e372f411c=1623442106,1623443549,1623443595,1623443758; Hm_lpvt_fa218a3ff7179639febdb15e372f411c=1623443758; _gat_gtag_UA_131851415_1=1"
+        "cookie": <get_from_chrome_dev_console>
       },
       "referrer": `https://leetcode-cn.com/u/${contestant.user_slug}/`,
       "referrerPolicy": "strict-origin-when-cross-origin",
@@ -80,7 +80,7 @@ async function extractSubmissions(contestant) {
         "x-definition-name": "userProfileUserQuestionProgress",
         "x-operation-name": "userQuestionProgress",
         "x-timezone": "America/Cancun",
-        "cookie": "csrftoken=xfA9Yh67x3qxSETGyRY2lnQ95Dnoe1YDcP3U6i3EdfG9WU5wyadbvQVPYqSAT8yv; __auc=854efddd1797bf0abe8e972f933; gr_user_id=a2c2f5cc-6251-4dd2-ba14-8aac50c8a7d1; _ga=GA1.2.757508293.1621282046; _gid=GA1.2.242860899.1623428151; __appToken__=; __asc=74f44d2d179fca05896d13f8c0d; a2873925c34ecbd2_gr_session_id=675b5fa1-a501-4b38-9ae0-5e46891fd5dc; a2873925c34ecbd2_gr_session_id_675b5fa1-a501-4b38-9ae0-5e46891fd5dc=true; Hm_lvt_fa218a3ff7179639febdb15e372f411c=1623442106,1623443549,1623443595,1623443758; Hm_lpvt_fa218a3ff7179639febdb15e372f411c=1623443758; _gat_gtag_UA_131851415_1=1"
+        "cookie": <get_from_chrome_dev_console>
       },
       "referrer": `https://leetcode-cn.com/u/${contestant.user_slug}/`,
       "referrerPolicy": "strict-origin-when-cross-origin",
