@@ -8,6 +8,7 @@
 - heroku
 - puppeteer
 - bash
+- `curl`
 
 ## Run
 open `index.html` in something like vscode [live server][1]
