@@ -3,7 +3,7 @@ import mongodb from 'mongodb'
 import { readFile, writeFile } from 'fs/promises';
 const { MongoClient, ObjectId } = mongodb
  
-const uri = "mongodb+srv://mongo:mongo@random.hb8do.mongodb.net/leetcode?retryWrites=true&w=majority&useNewUrlParser=true&useUnifiedTopology=true";
+const uri = <get_from_mongo_website>
 const client = new MongoClient(uri);
 
 try {
